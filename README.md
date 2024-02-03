@@ -1,4 +1,4 @@
 # Bash_Script
 
-This Repo include the latest healthchek scripts
+This Repo include the latest healthchek scripts required during daily task
 

@@ -10,5 +10,5 @@ MEMUSAGE=`free | grep Mem | awk '{print $3/$2*100.0}'`
 DISKUSAGE=`df -h | column -t | awk '{print $5}' | tail -3 | head -1`
 
 
-echo 'Hostname Date-Time CPU-Usage% Mem-Usage% Disk-Usage%'
-echo "$HOSTNAME $DATETIME $CPUUSAGE $MEMUSAGE $DISKUSAGE"
+echo 'Hostname  || Date-Time  || CPU-Usage% || Mem-Usage% || Disk-Usage%'
+echo "$HOSTNAME || $DATETIME || $CPUUSAGE || $MEMUSAGE || $DISKUSAGE"
